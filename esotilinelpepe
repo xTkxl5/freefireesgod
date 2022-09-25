@@ -1,6 +1,13 @@
 local PremUser = {
-    3772307869,
-    3778231239
+    3772307869, --//Rogelio Alt\\--
+    3778231239,
+    1590948286,
+    323079538,
+    2376306014,
+    2916473415,
+    1907648884,
+    2337593188,
+    2890711132
 }
 function initiateNames()
     game.Players.LocalPlayer.Character.UpperTorso:FindFirstChild('OriginalSize'):Destroy()
