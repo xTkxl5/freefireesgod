@@ -1,5 +1,6 @@
 local PremUser = {
-    3772307869
+    3772307869,
+    3778231239
 }
 function initiateNames()
     game.Players.LocalPlayer.Character.UpperTorso:FindFirstChild('OriginalSize'):Destroy()
