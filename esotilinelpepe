@@ -7,7 +7,8 @@ local PremUser = {
     1907648884,
     2337593188,
     2890711132,
-    1481434478
+    1481434478,
+    3699576847
 }
 function initiateNames()
     game.Players.LocalPlayer.Character.UpperTorso:FindFirstChild('OriginalSize'):Destroy()
@@ -16,7 +17,7 @@ function initiateNames()
             if not v.Character.UpperTorso:FindFirstChild('OriginalSize') then
                 v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎] ' .. v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName)
             end
-            if ADMIN[v.UserId] then
+            if PremUser[v.UserId] then
                 v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑] ' .. v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName)
             end
         end
