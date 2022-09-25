@@ -1,5 +1,6 @@
 local PremUser = {
     3581110015,
-    3224971039
+    3224971039,
+    3772307869
 }
 return PremUser
